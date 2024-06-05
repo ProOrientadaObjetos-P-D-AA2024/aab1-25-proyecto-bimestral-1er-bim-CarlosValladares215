@@ -35,8 +35,8 @@ public class OptimizacionDeRutas {
                     System.out.println("Ingrese la nueva hora de llegada (HH,MM):");
                     nuevaHoraLlegada = entrada.nextDouble();
 
-                    todasLasRutas.get(i).obtenerHorarios().get(i).setHoraSalida(nuevaHoraSalida);
-                    todasLasRutas.get(i).obtenerHorarios().get(i).setHoraLlegada(nuevaHoraLlegada);
+                    todasLasRutas.get(i).obtenerHorarios().get(j).setHoraSalida(nuevaHoraSalida);
+                    todasLasRutas.get(i).obtenerHorarios().get(j).setHoraLlegada(nuevaHoraLlegada);
                 }
             }
 
